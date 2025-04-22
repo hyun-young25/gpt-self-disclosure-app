@@ -1,4 +1,6 @@
 streamlit
+openai
+gtts
+pydub
+speechrecognition
 pandas
-openai>=1.0.0
-
