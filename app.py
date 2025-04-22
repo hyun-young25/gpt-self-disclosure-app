@@ -33,7 +33,7 @@ if len(selected_questions) == 3:
             with st.spinner("GPT가 응답 중..."):
                 try:
                     response = client.chat.completions.create(
-                        model="gpt-4",
+                        model="gpt-3.5-turbo",
                         messages=[
                             {"role": "system", "content": "너는 따뜻하고 공감적인 상담자야."},
                             {"role": "user", "content": user_input}
